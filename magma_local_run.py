@@ -1,4 +1,4 @@
-from magma import magma_model
+from magma import Magma as magma_model
 from magma.image_input import ImageInput
 
 class Magma:
@@ -19,7 +19,7 @@ class Magma:
         embeddings = self.model.preprocess_inputs(inputs)
 
         ## returns a list of length embeddings.shape[0] (batch size)
-        output = model.generate(
+        output = self.model.generate(
             embeddings = embeddings,
             max_steps = 6,
             temperature = 0.7,

@@ -1,0 +1,4 @@
+numpy
+pandas
+discord.py
+validators
