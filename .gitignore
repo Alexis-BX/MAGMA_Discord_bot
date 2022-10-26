@@ -3,3 +3,5 @@ config.py
 
 data/**
 !data/initial_30.csv
+
+mp_rank_00_model_states.pt

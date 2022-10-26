@@ -1,2 +1,2 @@
-LOCAL_MAGMA = False
+LOCAL_MAGMA = True
 TOKEN = ''
