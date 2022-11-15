@@ -21,7 +21,7 @@ class Magma:
         ## returns a list of length embeddings.shape[0] (batch size)
         output = self.model.generate(
             embeddings = embeddings,
-            max_steps = 6,
+            max_steps = 30,
             temperature = 0.7,
             top_k = 0,
         )

@@ -26,3 +26,7 @@ TORCH_CUDA_ARCH_LIST="6.0 6.1 7.0 7.5 8.0 8.6" python3 setup.py install --user
 
 ## Run
 ```python3 main.py```
+
+## Add bot to server
+https://discord.com/api/oauth2/authorize?client_id=1027303885427183617&permissions=395137121344&scope=bot
+
