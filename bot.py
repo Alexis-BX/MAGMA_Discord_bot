@@ -280,7 +280,6 @@ class Bot(discord.Client):
         if payload.user_id not in self.examples['Answer Magma ' + react_text + ' users'][line_num]:
             self.examples['Answer Magma ' + react_text + ' users'][line_num].append(payload.user_id)
             self.examples.at[line_num, 'Answer Magma ' + react_text] += 1
-            
 
     async def react_rm(self, payload):
         if payload.user_id == self.user:
