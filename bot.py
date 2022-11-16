@@ -168,7 +168,7 @@ class Bot(discord.Client):
         img_url = line['Image URL']
         img_prompt = line['Prompt']
 
-        if line['Answer Magma']!=pd.notna or len(line['Answer Magma'].strip())==0:
+        if line['Answer Magma']==pd.notna or len(line['Answer Magma'].strip())==0:
             img_ans = self.run_magma(img_url, img_prompt)
             self.examples.at[line_num, 'Answer Magma'] = img_ans
         else:
