@@ -5,7 +5,7 @@ class Magma:
     def __init__(self):
         self.model = magma_model.from_checkpoint(
             config_path = "configs/MAGMA_v1.yml",
-            checkpoint_path = "./mp_rank_00_model_states.pt",
+            checkpoint_path = "configs/mp_rank_00_model_states.pt",
             device = 'cuda:0'
         )
 

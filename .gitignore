@@ -6,6 +6,6 @@ data/**
 !data/data.csv
 !data/images.txt
 
-mp_rank_00_model_states.pt
+configs/mp_rank_00_model_states.pt
 
 test.ipynb
