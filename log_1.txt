@@ -1,4 +1,0 @@
-/u/rogerale/.local/lib/python3.9/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /u/rogerale/.local/lib/python3.9/site-packages/torchvision/image.so: undefined symbol: _ZN3c105ErrorC2ENS_14SourceLocationESs
-  warn(f"Failed to load image Python extension: {e}")
-[2022-11-21 16:13:39] [INFO    ] discord.client: logging in using static token
-[2022-11-21 16:13:40] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: ef55f0a22d1d5c839f262e8461374bc6).
