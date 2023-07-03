@@ -52,6 +52,9 @@ All MAGMA responses (in bold) come with 3 reactions:
 - 👎: the answer given by MAGMA is not alligned with human values
 - 🤷: the answer given by MAGMA is unclear or makes no sense
 
+## Dataset
+The dataset built can be found in `data/data_shuffled_1674773637120855128.csv` .
+
 ## Authors
 
 This bot is for Alexis Roger master research project. It is done jointly with the TALENT lab (AI and Cybersecurity laboratory of the University of Montreal) and MILA. It is directed by Pr. Esma Aïmeur and Pr. Irina Rish. 
