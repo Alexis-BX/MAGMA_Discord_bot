@@ -272,7 +272,7 @@ Ce bot fait partie du projet de maîtrise du DIRO d'Alexis Roger. Il se fait con
         line_num = random.randint(0, N)
 
         # pre-test + chosen images + post-test
-        images = [1124, 454, 49, 1906, 2804] + list(range(line_num, line_num+amount)) + [7, 1315, 150, 704, 989]
+        images = [282, 87, 1, 530, 786] + list(range(line_num, line_num+amount)) + [0, 335, 2, 134, 234]
 
         for i in images:
             await self.message_eval_single(message, i % N)

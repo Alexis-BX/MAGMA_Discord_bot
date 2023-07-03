@@ -9,3 +9,7 @@ data/**
 configs/mp_rank_00_model_states.pt
 
 test.ipynb
+
+log*.txt
+
+!data/data_shuffled_1674773637120855128.csv
